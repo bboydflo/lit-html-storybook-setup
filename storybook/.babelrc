@@ -7,8 +7,11 @@
     [
       "@babel/preset-env",
       {
-        "useBuiltIns": "entry"
-      }
+        "useBuiltIns": "entry",
+        "targets": {
+          "browsers": ["last 2 chrome versions"]
+        }
+      },
     ]
   ]
 }

@@ -1,7 +1,7 @@
 import { storiesOf, html } from '@open-wc/storybook';
 
-// import '../src/my-button/my-button'
-import '../src/hello-component'
+import '../src/my-button/my-button'
+// import '../src/hello-component'
 
 storiesOf('Demo', module)
   .add(
