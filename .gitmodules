@@ -1,0 +1,3 @@
+[submodule "src/spectrum-css"]
+	path = src/spectrum-css
+	url = https://github.com/adobe/spectrum-css

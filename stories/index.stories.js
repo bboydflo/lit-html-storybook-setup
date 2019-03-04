@@ -1,7 +1,7 @@
-import { storiesOf, html } from '@open-wc/storybook';
+import { storiesOf, html } from '@open-wc/demoing-storybook';
 
 import '../src/my-button/my-button'
-// import '../src/hello-component'
+import '../src/spectrum-button'
 
 storiesOf('Demo', module)
   .add(
@@ -11,5 +11,11 @@ storiesOf('Demo', module)
       <h1>Welcome to the Storybook Demo</h1>
       <my-button></my-button>
     </div>
+    `,
+  )
+  .add(
+    'Spectrum button',
+    () => html`
+      <spectrum-button></spectrum-button>
     `,
   )

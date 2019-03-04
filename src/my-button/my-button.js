@@ -1,5 +1,5 @@
 import { LitElement, html } from 'lit-element'
-import styles from './my-button.scss'
+import styles from '!to-string-loader!css-loader!sass-loader!./my-button.scss'
 
 export default class MyButton extends LitElement {
   render(){
